@@ -1,0 +1,19 @@
+.button1 {
+    background-color: #FFA8E3;
+    color: black;         /*Boja teksta na dugmetu*/
+    border-radius: 8px;     /*Zaobljeni uglovi*/
+    border-style: none;     /*Nema ivica oko dugmeta*/
+    cursor: pointer;
+    box-sizing: border-box;     /*Da tekst ne prelazi izice buttona*/
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.button1:hover,
+.button1:focus {
+  background-color: #ec689b;      /* Boja dugmeta kad je kursor iznad ili kad ima fokus */
+}
